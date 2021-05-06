@@ -1,0 +1,53 @@
+p
+{
+     width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+p:hover{
+  background-color:none;
+  color:red;
+}
+p:active{
+  background-color:purple;
+}
+p:focus{
+  background-color:black;
+}
+p:visited{
+  background-color:white;
+}
+h1+p
+{
+  border:5px solid red;
+  padding-top:50px;
+}
+.dessus
+{
+      width: 250px;
+    height: 110px;
+    text-align: justify;
+  border: 1px solid green;}
+#container
+  {
+    display:flex;
+    flex-direction:row;
+    border:2px solid black;
+    flex-wrap: wrap-reverse;
+  }
+
+.element1{
+  background-color: blue;
+  font-size:5em;
+}
+.element2{
+  background-color: purple;
+  font-size:5em;
+}
+.element3{
+  background-color: red;
+  font-size:5em;
+}
